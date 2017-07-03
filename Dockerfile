@@ -1,4 +1,4 @@
-FROM composer/composer:php7
+FROM composer:1.4.2
 MAINTAINER Irvin Capagcuan <irvin@capagcuan.org>
 RUN composer global require "hirak/prestissimo:^0.3"
 ENV GOSU_VERSION 1.10
