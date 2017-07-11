@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /app
+cd /var/www/html/app
 echo "currently in `pwd`"
 
 USER_ID=${LOCAL_USER_ID:-9001}

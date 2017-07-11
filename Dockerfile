@@ -30,6 +30,6 @@ RUN chmod -R 777 /composer
 RUN mkdir -p /root/.ssh
 COPY composer.sh /composer.sh
 RUN chmod 777 /composer.sh
-VOLUME ["/app"]
-WORKDIR /app
+VOLUME ["/var/www/html/app"]
+WORKDIR /var/www/html/app
 ENTRYPOINT ["/composer.sh"]
