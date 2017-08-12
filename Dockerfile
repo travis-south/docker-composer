@@ -1,4 +1,4 @@
-FROM composer:1.4.2
+FROM composer:1.5
 MAINTAINER Irvin Capagcuan <irvin@capagcuan.org>
 ENV GOSU_VERSION 1.10
 RUN set -ex; \
