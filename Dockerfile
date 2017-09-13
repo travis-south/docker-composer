@@ -1,4 +1,4 @@
-FROM composer:1.5
+FROM composer:1
 MAINTAINER Irvin Capagcuan <irvin@capagcuan.org>
 RUN composer global require hirak/prestissimo
 RUN docker-php-ext-install sockets
